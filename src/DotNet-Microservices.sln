@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{93510566-E66F-4EC2-B63B-878D97481C90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{7AF0CFC2-1814-47DB-9C63-C94F7661925B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{0C15EDFD-ACA3-49B5-B5EE-59D797F2785A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpApiGateway", "ApiGateways\YarpApiGateway\YarpApiGateway.csproj", "{8B52A7CC-A30A-4828-92D1-2E0BB25E5078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +81,14 @@ Global
 		{93510566-E66F-4EC2-B63B-878D97481C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93510566-E66F-4EC2-B63B-878D97481C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93510566-E66F-4EC2-B63B-878D97481C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF0CFC2-1814-47DB-9C63-C94F7661925B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF0CFC2-1814-47DB-9C63-C94F7661925B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF0CFC2-1814-47DB-9C63-C94F7661925B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF0CFC2-1814-47DB-9C63-C94F7661925B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B52A7CC-A30A-4828-92D1-2E0BB25E5078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B52A7CC-A30A-4828-92D1-2E0BB25E5078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B52A7CC-A30A-4828-92D1-2E0BB25E5078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B52A7CC-A30A-4828-92D1-2E0BB25E5078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +106,7 @@ Global
 		{5210BCF2-C5B1-4010-801C-4C21018CB0C2} = {1DA2A15F-5784-4A8D-BAB5-079E64A0E779}
 		{810518CD-2DA9-437F-80A5-52704A008225} = {1DA2A15F-5784-4A8D-BAB5-079E64A0E779}
 		{93510566-E66F-4EC2-B63B-878D97481C90} = {1DA2A15F-5784-4A8D-BAB5-079E64A0E779}
+		{7AF0CFC2-1814-47DB-9C63-C94F7661925B} = {BE9A7788-7AB7-4341-BE0F-4FB2DED0FA68}
+		{8B52A7CC-A30A-4828-92D1-2E0BB25E5078} = {0C15EDFD-ACA3-49B5-B5EE-59D797F2785A}
 	EndGlobalSection
 EndGlobal
